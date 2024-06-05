@@ -137,7 +137,7 @@ nav{
   align-self: flex-start;
   text-align: left;
   flex-direction: column;
-  text-direction: underline;
+  text-decoration: underline;
 }
 
 .open-email-body{
