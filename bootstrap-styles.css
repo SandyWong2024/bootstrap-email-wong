@@ -65,7 +65,7 @@ nav{
   font-size: 35px;
 }
 
-.sidebar-menu-content:hover{
+.sidebar-menu-content p:hover{
   cursor: pointer;
   text-decoration: underline;
   color: blue;
