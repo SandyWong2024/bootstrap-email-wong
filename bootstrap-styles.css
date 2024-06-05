@@ -1,1 +1,190 @@
+body{
+  background-color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
+nav{
+  width: 100vw;
+}
+
+.dropdown-menu{
+  width: 400px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-style{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.email-tablet{
+  justify-content: space-evenly;
+  border-right: 4px solid black;
+  background-color: #00eef2;
+  flex-direction: column;
+}
+
+.user-icon{
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100vpx;
+}
+
+.user-icon:hover{
+  cursor: pointer;
+}
+
+.user-email{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.user-email:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: green;
+}
+
+.sidebar-menu-content{
+  font-size: 35px;
+}
+
+.sidebar-menu-content:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.email-mobile{
+  background-color: #eeeeee;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.mobile-compose{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobile-text-body{
+  width: 95%;
+  height: 300px;
+}
+
+.mobile-compose-btn{
+  display: none;
+  width: 75%;
+}
+
+.open-email{
+  box-shadow: 6px 4px 4px black;
+}
+
+@media screen and (max-width: 768px){
+  .mobile-compose-btn{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .open-email{
+    box-shadow: none;
+  }
+}
+
+.unread-email{
+  background-color: #0075f2;
+  text-align: left;
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.unread-email:hover{
+  cursor: pointer;
+  background-color: #4c9ef5;
+  transition: 1s;
+}
+
+.email-desktop{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.to-from{
+  width: 100%;
+  align-self: flex-start;
+  text-align: left;
+  flex-direction: column;
+  text-direction: underline;
+}
+
+.open-email-body{
+  width: 100%;
+  align-self: flex-start;
+  text-align: left;
+  font-size: 25px;
+}
+
+.email-reply{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.reply-body{
+  width: 100%;
+  height: 200px;
+  text-align: start;
+  background-color: #c2bcbc;
+}
+
+.reply-btn{
+  width: 55px;
+  align-self: flex-end;
+}
+
+.reply-btn:hover{
+  background-color: green;
+  transition: 0.5s;
+  box-shadow: 3px 2px 2px black;
+}
+
+.offcanvas-body{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.compose-email{
+  width: 100%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.compose-sidebar{
+  width: 100%;
+  height: 75%;
+}
