@@ -167,7 +167,7 @@ nav{
 }
 
 .reply-btn:hover{
-  background-color: green;
+  background-color: #00f27d;
   transition: 0.5s;
   box-shadow: 3px 2px 2px black;
 }
